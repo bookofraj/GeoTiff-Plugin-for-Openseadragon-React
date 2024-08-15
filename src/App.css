@@ -1,5 +1,11 @@
 .App {
+  height: auto;
   text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .App-logo {
@@ -35,4 +41,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input{
+  width: 210px;
+}
+.active-btn{
+  background-color: lightgreen;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: darkgreen solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.inactive-btn{
+  color: grey;
+  background-color: lightgray;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: grey solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#control-panel{
+  width: 90vw;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: rgba(235, 232, 232, 0.773);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.vwr{
+  width: 90vw;
+  height: 90vh;
+  padding-top: 20px;
+  border: black solid 2px;
+}
+
+#link-input{
+  width: 300px;
 }
